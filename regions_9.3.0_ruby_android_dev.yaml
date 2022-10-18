@@ -66,7 +66,7 @@ Regions:
         tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
         hosts:
             R1:
-                url: "login-st34.wotblitz.com:20017"
+                url: "login-st34.wotblitz.com:20011"
                 allowTcpConnection: true
         communityUrls:
             http:
