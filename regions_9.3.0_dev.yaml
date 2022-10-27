@@ -1,10 +1,10 @@
 Common:
     smartDlcUrls:
-        - "http://cdn.static.wotb.app/dlc"
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "http://raw.githubusercontent.com/ghybuvtdhyt677u8899/vanasakun/main"
+        - "https://raw.githubusercontent.com/ghybuvtdhyt677u8899/vanasakun/main"
     smartDlcDynamicContentConfigsUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
-        - "http://cdn.static.wotb.app/dlc"
+        - "https://raw.githubusercontent.com/ghybuvtdhyt677u8899/vanasakun/main"
+        - "https://raw.githubusercontent.com/ghybuvtdhyt677u8899/vanasakun/main"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
     latencyLimitMs: 200
