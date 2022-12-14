@@ -276,7 +276,7 @@ Regions:
         adsRealmAlias: "review"
         ironSourceAppKey:
             iOS: "c954cf05"
-            Android: "c954957d"
+            Android: "160683105"
         layoutPosition:
             x: 0.1
             y: 0.6
