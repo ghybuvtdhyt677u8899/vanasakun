@@ -46,6 +46,7 @@ Regions:
             tokenUrl: "https://auth-cngv.ggdevcn.com/"
             payUrl: "https://pay-cngv.ggdevcn.com/"
             frontierUrl: "https://api-cngv.ggdevcn.com/"
+            notificationCenterUrl: "https://nts-wgt.ggdev.io/"
             client_id: "wotb"
             client_secret: "secret"
     CNGV_test:
@@ -68,6 +69,7 @@ Regions:
             tokenUrl: "https://auth-cngv.ggdevcn.com/"
             payUrl: "https://pay-cngv.ggdevcn.com/"
             frontierUrl: "https://api-cngv.ggdevcn.com/"
+            notificationCenterUrl: "https://nts-wgt.ggdev.io/"
             client_id: "wotb"
             client_secret: "secret"
 
