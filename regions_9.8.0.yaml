@@ -16,11 +16,9 @@ Common:
     assets: "https://wotblitz-gc.gcdn.co/assets/%s"
     videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
     battlePassOffersStorage: "http://smartdlc.wgtest.net/bp_offers/"
-    isImageCacheEnabled: true
+   isImageCacheEnabled: true
 
 Regions:
-   
-
 CNGV:
         news: "https://wbp-cngv.wotblitz.asia/zh-cn/rss/news/"
         popupNews: "https://wbp-cngv.wotblitz.asia/zh-cn/promo/"
