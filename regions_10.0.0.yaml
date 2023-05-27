@@ -19,10 +19,7 @@ Common:
     isImageCacheEnabled: true
 
 Regions:
-
-
-
-   fcc:
+   Test:
         news: "https://wbp-cngv.wotblitz.asia/zh-cn/rss/news/"
         popupNews: "https://wbp-cngv.wotblitz.asia/zh-cn/promo/"
         public: "true"
