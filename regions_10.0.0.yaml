@@ -29,7 +29,7 @@ Regions:
         netEaseHostId: 3
         hosts:
             CNGV_test:
-                url: "wotblitzcngv.login.wargaming.net:20011"
+                url: "wotblitzcngv.login.wargaming.net:20017"
                 forceTcpConnection: true
         tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
         isGGMAllowed: true
