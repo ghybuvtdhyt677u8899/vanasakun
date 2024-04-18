@@ -1,32 +1,65 @@
 Common:
     smartDlcUrls:
-        - "https://Dl-wotblitz-gc.wargaming.net/dlc"
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "http://cdn.static.wotb.app/dlc"
     smartDlcDynamicContentConfigsUrls:
-        - "https://cdn.static.wotb.app/dlc"
-    additionalLocalizationBaseUrl: "https://ma67.gsf.queniukx.cn/localizations_china"
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "http://cdn.static.wotb.app/dlc"
+    cdnSelection: 
+        useNewCdnSelectionAlgorithm: true
+        cdnMaxSpeed: 30.0 # ~33 ms for whole file
+        cdnWeightSpeed: 1.0
+        cdnMaxPrice: 10.0
+        cdnWeightPrice: -2.0
+        cdnPrices: 
+            - 1.0
+            - 5.0
+    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "false"
     latencyLimitMs: 200
-    wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
+    wotBlitzPortal: "https://wotblitz.com"
+    wotBlitzPortalQRCode: "http://dl-wotblitz-gc.wargaming.net/qr_code/wotblitz_%(realm).png"
     communityUrls:
         http:
+            vk: "https://vk.com/wotblitz"
+            facebook: "https://www.facebook.com/wotblitz"
+            youtube: "https://www.youtube.com/channel/UC1h424KQY-jGGQe3inlqfiA"
+            twitter: "https://twitter.com/WoTBlitz"
+            instagram: "https://www.instagram.com/wotblitz/"
+            viber: "https://chats.viber.com/wot"
             portal: "https://wotblitz.ru"
             wargaming: "https://www.wargaming.net"
+            discord: "https://discord.gg/sR2X6Hp"
+        native:
+            youtube: "https://www.youtube.com/channel/UC1h424KQY-jGGQe3inlqfiA"
+            twitter: "twitter://user?id=1134245654"
+            viber: "viber://public?id=wot"
+        native_ios:
+            facebook: "fb://profile/572143336148627"
+        native_android:
+            facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
     tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
-    chinaStoresConfigBaseUrl: "https://ma67.gdl.netease.com/"
-    netEaseGas3Url: "https://mgbsdktest.matrix.netease.com/ma67/sdk/"
-    defaultLanguage: "zh-cn"
+    support_query: "blitz=1&locale=%s"
+    appleAppStore: "https://itunes.apple.com/app/id859204347"
+    appleMacAppStore: "macappstore://itunes.apple.com/app/id1068932208"
+    steamStore: "steam://nav/games/details/444200"
+    onestoreAppStoreUrl: "onestore://common/product/0000713208"
+    netEaseGas3Url: "https://testgbsdk.nie.netease.com/ma67/sdk/"
+    defaultLanguage: "en"
     isTournamentEventsEnabled: false
+    blitzAssistant:
+        store:
+            default: "https://wotblitz.ru/assistant/"
+            iOS: "itms-apps://itunes.apple.com/app/id1047617794"
+            Android: "market://details?id=net.wargaming.wot.blitz.assistant"
+            "Windows Desktop UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+            "Windows Phone UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
     prizesWithdrawal: "https://wdw-st30.wotblitz.com"
-    assets: "https://ma67.gdl.netease.com/assets/%s"
-    videoAssets: "https://ma67.gdl.netease.com/assets/Video/%(slug)"
-    battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
-    ageRatingURL: "https://ma67.gdl.netease.com/AgeRating.yaml"
-    icpNumberUrl: "https://beian.miit.gov.cn/"
-    neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
-    neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
+    assets: "https://wotblitz-gc.gcdn.co/assets/%s"
+    videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
+    battlePassOffersStorage: "http://smartdlc.wgtest.net/bp_offers/"
     isImageCacheEnabled: true
     switchToDlcGen2Probability: 1.0
-    cdnUrl: "https://ma67.gsf.queniukx.cn"
 Regions:
     CNGV:
         news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
