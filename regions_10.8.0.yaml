@@ -51,29 +51,6 @@ Regions:
             frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
             client_secret: "secret"
-    CNGV_test:
-        news: "https://wbp-cngv.wotblitz.asia/zh-cn/rss/news/"
-        popupNews: "https://wbp-cngv.wotblitz.asia/zh-cn/promo/"
-        public: "true"
-        wotBlitzPortal: "https://ptl-st30.wargaming.net"
-        wgnwn: "https://cngv.wotblitz.asia"
-        realm: "cn"
-        flag: "cn"
-        clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
-        netEaseHostId: 3
-        hosts:
-            CNGV_test:
-                url: "wotblitzcngv.login.wargaming.net:20011"
-                forceTcpConnection: true
-        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
-        isGGMAllowed: true
-        ggmCredits:
-            tokenUrl: "https://auth-cngv.ggdevcn.com/"
-            payUrl: "https://pay-cngv.ggdevcn.com/"
-            frontierUrl: "https://api-cngv.ggdevcn.com/"
-            notificationCenterUrl: "https://nts-wgt.ggdev.io/"
-            client_id: "wotb"
-            client_secret: "secret"
 
 ClanEmblems:
     DefaultEmblem:
