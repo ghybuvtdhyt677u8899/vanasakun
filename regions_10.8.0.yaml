@@ -64,7 +64,7 @@ Regions:
     ST33:
         realm: "st33"
         flag: "us"
-        wgnwn: "https://st33.wargaming.net"
+        wgnwn: "https://st30.wargaming.net"
         clientId: "M0pYCT6o0wx1QBqsudZpt27pzuNw4RCIU4jRKcK3"
         clientIds:
             nsb: "M0pYCT6o0wx1QBqsudZpt27pzuNw4RCIU4jRKcK3"
