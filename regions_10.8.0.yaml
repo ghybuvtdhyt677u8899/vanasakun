@@ -29,11 +29,11 @@ Common:
 
 Regions:
     CNGV:
-        news: "https://wbp-cngv.wotblitz.asia/zh-cn/rss/news/"
-        popupNews: "https://wbp-cngv.wotblitz.asia/zh-cn/promo/"
+        news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
         public: "true"
-        wotBlitzPortal: "https://ptl-st30.wargaming.net"
-        wgnwn: "https://cngv.wotblitz.asia"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.plt.ms1shanghai.cn"
         realm: "cn"
         flag: "cn"
         clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
@@ -42,15 +42,16 @@ Regions:
             CNGV:
                 url: "wotblitzcngv.login.wargaming.net:20017"
                 forceTcpConnection: true
-        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
         isGGMAllowed: true
+        ggmGameTitle: "wotbcngv"
         ggmCredits:
-            tokenUrl: "https://auth-cngv.ggdevcn.com/"
-            payUrl: "https://pay-cngv.ggdevcn.com/"
-            frontierUrl: "https://api-cngv.ggdevcn.com/"
-            notificationCenterUrl: "https://nts-wgt.ggdev.io/"
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
             client_secret: "secret"
+        battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
     CNGV_test:
         news: "https://wbp-cngv.wotblitz.asia/zh-cn/rss/news/"
         popupNews: "https://wbp-cngv.wotblitz.asia/zh-cn/promo/"
