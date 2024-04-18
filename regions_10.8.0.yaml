@@ -1,11 +1,9 @@
 Common:
     smartDlcUrls:
-        - "http://cdn.static.wotb.app/dlc" 
-        - "http://dl-wotblitz-gc.wargaming.net/dlc" 
+        - "https://Dl-wotblitz-gc.wargaming.net/dlc"
     smartDlcDynamicContentConfigsUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc" 
-        - "http://cdn.static.wotb.app/dlc" 
-    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
+        - "https://cdn.static.wotb.app/dlc"
+    additionalLocalizationBaseUrl: "https://ma67.gsf.queniukx.cn/localizations_china"
     public: "false"
     latencyLimitMs: 200
     wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
@@ -23,16 +21,41 @@ Common:
     videoAssets: "https://ma67.gdl.netease.com/assets/Video/%(slug)"
     battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
     ageRatingURL: "https://ma67.gdl.netease.com/AgeRating.yaml"
+    icpNumberUrl: "https://beian.miit.gov.cn/"
     neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
     neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
     isImageCacheEnabled: true
-
+    switchToDlcGen2Probability: 1.0
+    cdnUrl: "https://ma67.gsf.queniukx.cn"
 Regions:
+    CNGV:
+        news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        public: "true"
+        wotBlitzPortal: "https://ptl-st30.wargaming.net"
+        wgnwn: "https://cngv.plt.ms1shanghai.cn"
+        realm: "cn"
+        flag: "cn"
+        clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                forceTcpConnection: true
+        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
+        isGGMAllowed: true
+        ggmGameTitle: "wotbcngv"
+        ggmCredits:
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
     CNGV_test:
         news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
         popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
         public: "true"
-        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wotBlitzPortal: "https://ptl-st30.wargaming.net"
         wgnwn: "https://cngv.plt.ms1shanghai.cn"
         realm: "cn"
         flag: "cn"
@@ -51,7 +74,6 @@ Regions:
             frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
             client_secret: "secret"
-
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"
@@ -232,6 +254,51 @@ ClanEmblems:
         67:
             Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_044.png"
             Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_044.png"
+        70:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-70.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-70.png"
+        71:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-71.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-71.png"
+        72:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-72.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-72.png"
+        73:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-73.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-73.png"
+        74:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-74.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-74.png"
+        75:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-75.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-75.png"
+        76:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-76.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-76.png"
+        77:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-77.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-77.png"
+        78:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-78.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-78.png"
+        79:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-79.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-79.png"
+        80:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-80.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-80.png"
+        81:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-81.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-81.png"
+        82:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-82.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-82.png"
+        83:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-83.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-83.png"
+        84:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-84.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-84.png"
         10001:
             Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"
             Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10001.png"
