@@ -109,7 +109,7 @@ Regions:
         adsRealmAlias: "review"
         hosts:
             R1:
-                url: "login-st34.wotblitz.com:20011"
+                url: "login-st34.wotblitz.com:20017"
                 forceTcpConnection: true
         communityUrls:
             http:
