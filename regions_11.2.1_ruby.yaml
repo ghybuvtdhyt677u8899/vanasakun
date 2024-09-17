@@ -27,7 +27,7 @@ Common:
 
 Regions:
     tblitzcyber:
-        wgnwn: "https://lite.lstdev.net"
+        wgnwn: "lesta.ru"
         blitzShortName: "wotb"
         # new ids per platform
         clientIds:
