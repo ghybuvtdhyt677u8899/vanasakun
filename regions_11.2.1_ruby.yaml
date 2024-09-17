@@ -26,24 +26,46 @@ Common:
             company_site: "https://lesta.ru"
 
 Regions:
-    tblitzcyber:
-        wgnwn: "lesta.ru"
-        blitzShortName: "wotb"
-        # new ids per platform
-        clientIds:
-            ios: "NCdVewrhiu8DijPWQA1iXptRjUW4sjAhAGq7CtES"
-            android: "sjm0mgPOZJCK3DuBs7PCo4lu91tukhpaMu82S4DF"
-            macos: "TGyFyKbXbeSwwLYgcGJ7ut0Mr71Y2DEOiwkMMQNj"
-            wgc: "AywZ89EiGsHAx030irf6RRNmbABCv5WBrIwe95vx"
-            win_steam: "cNCcfGrJPyk7WPsCvT1zCmF1rt1dSYoqU4GnIcQC"
+    opentest:
         realm: "ru"
         flag: "ru"
+        wgnwn: "https://apex.lesta.ru"
+        blitzShortName: "wotblitzot"
+        # new ids per platform
+        clientIds:
+            ios: "jWvq3VJTQeKxIIxGZrDuPFGfdxPSxJMr9A1PoWG5"
+            android: "buI5jzWLXsZjdELlDqupz1rBdDme5oAeeRuWZyEr"
+            macos: "CWoXuX5qEaXjZOsIRv08uY5smCKxpmUGJcnn5BH7"
+            win7: "5TeDpPIa2f9i7bYWykDxFLoQj0kUIpPGrrFQeuUb"
+        news: "https://tanksblitz.ru/%s/api/cms/rss/news/?realm=rb"
+        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)&realm=rb"
+        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/?realm=rb"
+        eula: "https://legal.tanksblitz.info/eula/"
+        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
         hosts:
-            tblitzcyber:
-                url: "bwc-tblitzcyber.lstdev.net:25000"
-                login: "tblitzcyber"
-        tmsPublicApi: 'https://tmsis-wotb.lstdev.net'
-        isTournamentEventsEnabled: true
+            opentest0:
+                url: "open0.tanksblitz.ru:20017"
+            opentest1:
+                url: "open1.tanksblitz.ru:20017"
+        communityUrls:
+            http:
+                vk: "https://vk.com/club49033185"
+                youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
+                discord: "https://discord.gg/GDKXhkk"
+                telegram: "https://t.me/tanks_blitz_official"
+                portal: "https://tanksblitz.ru"
+                company_site: "https://lesta.ru"
+        adsRealmAlias: "stable"
+        ironSourceAppKey:
+            iOS: "161b65dfd"
+            Android: "161b69785"
+        ggmGameTitle: "ruby"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.2
+            y: 0.45
+        isImageCacheEnabled: false
+
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/icons/clanEmblems1x/clan-icon-v2-10001.png"
