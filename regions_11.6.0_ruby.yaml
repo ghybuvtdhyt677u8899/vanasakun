@@ -34,7 +34,7 @@ Regions:
     tbreview_apex:
         realm: "ru"
         flag: "ru"
-        lestaDomain: "https://apex.lesta.ru"
+        lestaDomain: "https://tanksblitz.ru"
         blitzShortName: "wotbreview"
         # new ids per platform
         clientIds:
