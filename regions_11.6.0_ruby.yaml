@@ -31,11 +31,12 @@ Common:
             uncertain: "/id/signout/trigger/?next=/personal/teleport/"
 
 Regions:
-opentest:
+    opentest:
         realm: "ru"
         flag: "ru"
-        wgnwn: "https://apex.lesta.ru"
+        lestaDomain: "https://apex.lesta.ru"
         blitzShortName: "wotblitzot"
+        # new ids per platform
         clientIds:
             ios: "jWvq3VJTQeKxIIxGZrDuPFGfdxPSxJMr9A1PoWG5"
             android: "buI5jzWLXsZjdELlDqupz1rBdDme5oAeeRuWZyEr"
@@ -55,7 +56,6 @@ opentest:
             http:
                 vk: "https://vk.com/club49033185"
                 youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
-                discord: "https://discord.gg/GDKXhkk"
                 telegram: "https://t.me/tanks_blitz_official"
                 portal: "https://tanksblitz.ru"
                 company_site: "https://lesta.ru"
